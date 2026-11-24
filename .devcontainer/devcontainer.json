@@ -1,0 +1,13 @@
+{
+  "name": "Elixir IDE",
+  "image": "ghcr.io/varelad/elixir-ide-image:2026b.1",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": { "label": "Livebook", "onAutoForward": "openBrowser" }
+  },
+  "containerEnv": {
+    "LIVEBOOK_IP": "0.0.0.0",
+    "LIVEBOOK_TOKEN_ENABLED": "false"
+  },
+  "hostRequirements": { "cpus": 2 }
+}

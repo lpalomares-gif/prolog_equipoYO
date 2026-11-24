@@ -1,0 +1,14 @@
+# Compilación y dependencias de Mix
+/_build/
+/deps/
+_build/
+deps/
+
+# ElixirLS
+.elixir_ls/
+
+# Otros
+erl_crash.dump
+*.ez
+/cover/
+/doc/
